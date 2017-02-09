@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+
+<head>
+    <link rel="stylesheet" href="../css/normalize.css">
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+    <!-- bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vetDevHouse</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.0/angular.js"></script>
+</head>
+
+<body ng-controller="MainCtrl as main">
+    <div class="navBar">
+        <h1>Veteran’s Development House</h1>
+        <!-- <button class=" mailingListBtn btn btn-primary " type="button" name="button">Join Our Mailing List</button>
+        <button class="surveyBtn btn btn-primary " type="button " name="button ">Take Our Survey</button> -->
+
+    </div>
+
+    <div class="holdTheWords">
+        <h1>COMING SOON!</h1>
+        <h3>Veteran’s Development House, helping the veteran community build their on-line businesses, one veteran at a time. While we get our site up an running, join our email list to be notified when we have new information available and please make sure to participate in our survey as well.</h3>
+
+        <form class="mailingList" ng-submit="main.mailUser()">
+            <input class="nameInput" type="text" ng-model="main.newUser.name" placeholder="Name">
+            <input class="emailInput" type="text" ng-model="main.newUser.email" placeholder="Email">
+            <button class="mailingListBtn btn btn-primary" type="submit" name="button">Join Our Mailing List</button>
+        </form>
+
+
+        <button class="surveyBtn btn btn-primary" type="button" name="button">Take Our Survey</button>
+
+    </div>
+
+    <!-- <h1>{{ main.greeting }}</h1> -->
+    <div class="faded"></div>
+
+</body>
+
+
+<script type="text/javascript" src="../javascript/module.js"></script>
+<script type="text/javascript " src="../javascript/factory.js "></script>
+<script type="text/javascript" src="../javascript/myScripts.js"></script>
+
+</html>
