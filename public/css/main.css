@@ -40,7 +40,7 @@ body {
 .mailingListBtn {
     position: absolute;
     top: 80%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, -50%);
     /*background-color: #719fe8;*/
     background-color: white;
@@ -53,7 +53,7 @@ body {
     position: absolute;
     width: 200px;
     top: 70%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, -50%);
     /*background-color: #719fe8;*/
     background-color: white;
@@ -67,7 +67,7 @@ body {
     position: absolute;
     width: 200px;
     top: 60%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, -50%);
     /*background-color: #719fe8;*/
     background-color: white;
@@ -77,17 +77,18 @@ body {
     border-radius: 5px;
 }
 
-.surveyBtn {
+
+/*.surveyBtn {
     position: absolute;
     top: 70%;
     left: 70%;
     transform: translate(-50%, -50%);
-    /*background-color: #719fe8;*/
+    background-color: #719fe8;
     background-color: white;
-    /*text-shadow: 1px 1px 1px black;*/
+    text-shadow: 1px 1px 1px black;
     box-shadow: 2px 2px 1px black, 3px 3px 2px grey;
     color: #0142aa;
-}
+}*/
 
 .holdTheWords {
     position: fixed;
